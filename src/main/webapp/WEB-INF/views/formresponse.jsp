@@ -17,6 +17,7 @@ ${lName}<br>
 ${email}<br>
 ${phone}<br>
 ${password}<br>
+<a href="/getAllItems"><button>View Inventory</button></a>
 
 </body>
 </html>
