@@ -16,15 +16,15 @@
 ${inst}<br>
 <br>
 <br>
-<form action="formhandler" method="post">
+<form action="addUser" method="post">
     First Name: <input type="text" name="fName"><br>
     Last Name: <input type="text" name="lName"><br>
     Email: <input type="text" name="email"><br>
     Phone: <input type="text" name="phone"><br>
     Password: <input type="password" name="password"><br>
     Re-Enter Password: <input type = "password" name= "password2" ><br>
-    <input type="radio" name="Preference" value="Regular" checked> Regular<br>
-    <input type="radio" name="Preference" value="De-Cafe">De-Cafe<br>
+    <input type="radio" name="preference" value="Regular" checked> Regular<br>
+    <input type="radio" name="preference" value="De-Cafe">De-Cafe<br>
     <input type="submit" name="submit" value="submit"><br>
 </form>
 </body>
